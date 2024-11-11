@@ -1,16 +1,23 @@
-name: Deploy via ftp
-on: push
+name: Deploy via FTP
+on: [push]
 jobs:
   deploy:
-    name: Deploy
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - name: Check out repository
+      uses: actions/checkout@v3
 
-    - name: FTP Deploy Locaweb
-      uses: locaweb/ftp-deploy@1.0.0
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
       with:
-        host: ${{ secrets.FTP_HOST }}
-        user: ${{ secrets.FTP_USER }}
+        node-version: '20'
+
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP_USER }}
         password: ${{ secrets.FTP_PASSWORD }}
-        localDir: "dist"
+        port: 21
+        local-dir: dist
+        server-dir: /home/projetounivesp201/
