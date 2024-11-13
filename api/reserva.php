@@ -19,9 +19,9 @@
         <section><br><br>
             <h2>Reserva de Sala</h2><br>
             <div class="salas-container">
-            <img src="imgs/sala1.jpg" alt="Sala 1" class="sala" onclick="abrirFormulario('Sala 1')">
-            <img src="imgs/sala2.jpg" alt="Sala 2" class="sala" onclick="abrirFormulario('Sala 2')">
-            <img src="imgs/sala3.jpg" alt="Sala 3" class="sala" onclick="abrirFormulario('Sala 3')">
+            <img src="../imgs/sala_projecao.jpg" alt="Sala Projeção" class="sala" onclick="abrirFormulario('Sala 1')">
+            <img src="../imgs/auditorio.jpg" alt="Sala Auditório" class="sala" onclick="abrirFormulario('Sala 2')">
+            <img src="../imgs/sala_informatica.jpg" alt="Sala Informática" class="sala" onclick="abrirFormulario('Sala 3')">
             <!-- Adicione mais imagens conforme necessário -->
             </div>
 
