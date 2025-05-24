@@ -19,27 +19,15 @@
         </nav>
         <section><br><br>
             <h2>Localização da escola</h2><br>
-            <form action="processa.php" method="post">
-                    
-                <label for="CodProduto">Código:</label>
-                <input type="text" id="CodProduto" name="CodProduto" class="campo" maxlength="4" required><br><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7310.790006477045!2d-46.719129!3d-23.626021!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce514a3024e97d%3A0xacce81379a61fb4f!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Villa%20Santa%20B%C3%A1rbara!5e0!3m2!1spt-BR!2sus!4v1696139315323!5m2!1spt-BR!2sus" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 
-               <label for="NomeProduto">Produto:</label>
-               <input type="text" id="NomeProduto" name="NomeProduto" class="campo" maxlength="70" autofocus><br><br>
-        
-                <label for="Tipo">Tipo:</label>
-                    <select id="Tipo" name="Tipo" required>
-                    <option value="Pacote">Pacote</option>
-                    <option value="Unidade">Unidade</option>
-                    </select><br><br>
-
-                <label for="qtidadeProduto">Quantidade:</label>
-                <input type="number" id="qtidadeProduto" name="qtidadeProduto" min="1" required><br><br>
-
-                <input type="submit" value="Adicionar Produto" onclick="validarProduto('NomeProduto','CodProduto','qtidadeProduto')">
-                <input type="reset" value="Limpar">
-
-            </form>
         </section>
         </div>  
     </body>
