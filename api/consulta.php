@@ -15,6 +15,7 @@
             <a href="cadastrar.php">Cadastro</a>
             <a href="excluir.php">Retirada</a>
             <a href="reserva.php">Retirada</a>
+            <a href="local.php">Localização</a>
         </nav>        
         <section><br><br>
             <h2>Consulta de Produtos</h2><br>
