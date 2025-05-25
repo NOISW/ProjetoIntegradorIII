@@ -19,15 +19,16 @@
         </nav>
         <section><br><br>
             <h2>Localização da escola</h2><br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7310.790006477045!2d-46.719129!3d-23.626021!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce514a3024e97d%3A0xacce81379a61fb4f!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Villa%20Santa%20B%C3%A1rbara!5e0!3m2!1spt-BR!2sus!4v1696139315323!5m2!1spt-BR!2sus" 
-        width="600" 
-        height="450" 
-        style="border:0;" 
-        allowfullscreen="" 
-        loading="lazy" 
-        referrerpolicy="no-referrer-when-downgrade">
-</iframe>
-
+            <div style="display: flex; justify-content: center; align-items: center; margin-top: 20px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.585101682889!2d-46.72225352467505!3d-23.583905562568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5194e98c47a5%3A0x5f8e0f43c4ff1a3e!2sR.%20Dr.%20Jos%C3%A9%20Gustavo%20Busch%2C%2075%20-%20Morumbi%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005705-190%2C%20Brasil!5e0!3m2!1spt-BR!2sbr!4v1716569462739!5m2!1spt-BR!2sbr" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
         </section>  
     </body>
 </html>
