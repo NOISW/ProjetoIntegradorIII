@@ -28,7 +28,6 @@
         referrerpolicy="no-referrer-when-downgrade">
 </iframe>
 
-        </section>
-        </div>  
+        </section>  
     </body>
 </html>
