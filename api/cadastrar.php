@@ -16,6 +16,7 @@
             <a href="excluir.php">Retirada</a>
             <a href="reserva.php">Reserva</a>
             <a href="local.php">Localização</a>
+            <a href="https://project4-ruby-three.vercel.app/">Painel</a>
         </nav>
         <section><br><br>
             <h2>Cadastro de Produtos</h2><br>
