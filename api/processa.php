@@ -15,6 +15,7 @@
             <a href="cadastrar.php">Cadastro</a>
             <a href="excluir.php">Retirada</a>
             <a href="reserva.php">Retirada</a>
+            <a href="https://project4-ruby-three.vercel.app/">Painel</a>
         </nav>
         <section><br><br>
             <h2>Confirmação de Cadastro de Produtos</h2><br>
